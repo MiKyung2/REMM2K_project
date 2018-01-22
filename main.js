@@ -1,13 +1,16 @@
 
     var data = [];
-    var url = [];
-    
+
+    $(document).on("mouseover","a",function(){
+     $(this).parent().css("background-size", "110% 110%");
+    });
+
+    $(document).on("mouseout","a",function(){
+     $(this).parent().css("background-size", "100% 100%");
+    });
 
     $( document ).ready(function() {
-        
-        
         getData();
- 
     });
 
     
@@ -48,7 +51,6 @@
                         sum_col = 0;
                     }else {
                         $cur_article.css('margin-right','35px');
-                        console.log(sum_col);
                     }
                     
                     $cur_article.css('background-image','url(".'+value.img+'")');  
@@ -68,5 +70,7 @@
         }else {
             return 1;
         }
-}
+    }
+
+
     
