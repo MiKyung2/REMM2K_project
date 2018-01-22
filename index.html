@@ -7,29 +7,27 @@
         <title>REMM2K</title>
         <link rel="stylesheet" href="layout.css">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
         <script type="text/javascript" src="main.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
-<!--
-    <script id="row_template" type="text/x-jQuery-tmpl">
-	   <a href="{{=url}}">
-            <h1 class="title">{{=title}}</h1>
-            <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-            <p class="desc">{{=desc}}</p>
-        </a>
-    </script>
--->
+    
 
+    <script id="row_template" type="text/x-jQuery-tmpl">
+    <article>
+       <a href="{{= url}}">
+            <h1 class="title">{{= title}}</h1>
+            <i class="fa fa-arrow-circle-o-right fa-4x" aria-hidden="true"></i>
+            <p class="desc">{{= desc}}</p>
+        </a>
+    </article>
+    </script>
+    
     <body>
         <section id="content" class="clear">
-            <article>
-                <a href="">
-                    <h1 class="title">도심 출퇴근이 편리한<br>마포 지역 쉐어하우스</h1>
-                    <i class="fa fa-arrow-circle-o-right fa-4x" aria-hidden="true"></i>
-                    <p class="desc">셰어킴 테마 기획전</p>
-                </a>
-            </article>
+           
         </section>
     </body>
 </html>
