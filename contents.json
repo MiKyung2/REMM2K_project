@@ -1,0 +1,90 @@
+[
+	{
+		"size": "col-02",
+		"type": "full",
+		"img": "/content/170913/1.jpg",
+		"title": "먹거리와 놀거리가 풍부한\n젊음과 문화의 거리 테마 기획전",
+		"desc": "명동, 대학로, 신촌, 이대 등 놀거리 먹거리 풍부한 동네에 위치한 젊은이들을 위한 쉐어하우스를 소개해 드립니다.",
+		"url": "/contents.php?id=1"
+	},
+	{
+		"size": "col-01",
+		"type": "full",
+		"img": "/content/170913/2.jpg",
+		"title": "도심 출퇴근이 편리한\n마포 지역 쉐어하우스",
+		"desc": "셰어킴 테마 기획전",
+		"url": "/contents.php?id=2"
+	},
+	{
+		"size": "col-03",
+		"type": "full",
+		"img": "/content/170913/6.jpg",
+		"title": "외국인 친구, 한명쯤은 있잖아요?",
+		"desc": "외국인 룸메이트와 함께 지낼 수 있는 쉐어하우스 기획전",
+		"url": "/contents.php?id=4"
+	},
+	{
+		"size": "col-01",
+		"type": "full",
+		"img": "/content/170913/7.jpg",
+		"title": "K-셰어하우스\n오픈 기념 이벤트",
+		"desc": "첫 월세 10만원 할인, 동반친구도 10만원 추가할인!",
+		"url": "http://blog.naver.com/sharekim_/221086241995"
+	},
+	{
+		"size": "col-01",
+		"type": "full",
+		"img": "/content/170913/8.jpg",
+		"title": "바다 쉐어하우스\n그들의 철학을 살펴보다.",
+		"desc": "셰어킴 인터뷰",
+		"url": "http://blog.naver.com/sharekim_/221039388677"
+	},
+	{
+		"size": "col-01",
+		"type": "full",
+		"img": "/content/170913/9.jpg",
+		"title": "쉐어하우스 창업,\n어떻게 이루어지나?",
+		"desc": "셰어킴 정기연재",
+		"url": "http://blog.naver.com/sharekim_/221006037514"
+	},
+	{
+		"size": "col-01",
+		"type": "full",
+		"img": "/content/171105/2.jpg",
+		"title": "원룸보다 나은 선택\n강남 지역 쉐어하우스",
+		"desc": "셰어킴 테마 기획전",
+		"url": "/contents.php?id=5"
+	},
+	{
+		"size": "col-02",
+		"type": "full",
+		"img": "/content/171105/1.jpg",
+		"title": "쉽게, 짐보관 마타주",
+		"desc": "수납 공간이 부족한 당신을 위해 [셰어킴 X 마타주] 제휴 할인 지원",
+		"url": "http://sharekim.com/event/matazoo/"
+	},
+	{
+		"size": "col-01",
+		"type": "full",
+		"img": "/content/170913/3.jpg",
+		"title": "쉐어하우스 집중 탐구",
+		"desc": "한국경제신문에 실린 쉐어하우스에 대한 기사를 통해\n쉐어하우스에 대해 자세히 알아보세요.",
+		"url": "http://news.hankyung.com/article/201708090157g"
+	},
+	{
+		"size": "col-01",
+		"type": "full",
+		"img": "/content/170913/4.jpg",
+		"title": "홍석천을 만나다",
+		"desc": "셰어킴 인터뷰",
+		"url": "http://blog.naver.com/sharekim_/220943724889"
+	},
+	{
+		"size": "col-01",
+		"type": "full",
+		"img": "/content/170913/5.jpg",
+		"title": "여행 & 주거를 동시에\n여행자를 위한 하우스",
+		"desc": "셰어킴 테마 기획전",
+		"url": "/contents.php?id=3"
+	}
+]
