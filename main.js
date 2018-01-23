@@ -24,6 +24,11 @@
             success:function(data){
                 $('#row_template').tmpl(data).appendTo('#content');
                 
+                 $.each(data, function(key, value) {
+                     var $cur_article = $('article').eq(key);
+                     $cur_article.find('h1').append(value.title);
+                 });
+                
                 data1 = data;
                 css(data);
             },
