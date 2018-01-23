@@ -2,11 +2,11 @@
     var data1 = [];
 
     $(document).on("mouseover","a",function(){
-     $(this).parent().css("background-size", "110% 110%");
+     $(this).parent().css("background-size", "auto 110%");
     });
 
     $(document).on("mouseout","a",function(){
-     $(this).parent().css("background-size", "100% 100%");
+     $(this).parent().css("background-size", "auto 100%");
     });
 
     $( document ).ready(function() {
@@ -23,6 +23,7 @@
             async:false,
             success:function(data){
                 $('#row_template').tmpl(data).appendTo('#content');
+                
                 data1 = data;
                 css(data);
             },
@@ -41,8 +42,6 @@
             size = size.split('-');
             
             var col_size;
-            console.log(Number(size[1]));
-            console.log();
             
             if ( Number(size[1]) > win_size ) {
                 col_size = win_size;
@@ -50,7 +49,6 @@
                 col_size = Number(size[1]);
             }
             
-            console.log(col_size);
             switch(col_size) {
                 case 1:
                     $cur_article.css('width','370px'); 
